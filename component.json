@@ -1,0 +1,13 @@
+{
+    "name": "fabrikate-jaeger",
+    "generator": "static",
+    "path": "./manifests",
+    "subcomponents": [
+        {
+            "name": "jaeger",
+            "generator": "helm",
+            "repo": "https://github.com/helm/charts",
+            "path": "incubator/jaeger"
+        }
+    ]
+}

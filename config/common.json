@@ -1,0 +1,10 @@
+{
+    "config": {},
+    "subcomponents": {
+        "jaeger": {
+            "config": {
+                "namespace": "jaeger"
+            }
+        }
+    }
+}
