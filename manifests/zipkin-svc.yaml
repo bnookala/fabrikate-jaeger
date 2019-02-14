@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: jaeger
+  name: zipkin
+  namespace: jaeger
+spec:
+  ports:
+  - name: http
+    port: 9411
+    protocol: TCP
+    targetPort: 9411
+  selector:
+    app: jaeger
+  type: ClusterIP
