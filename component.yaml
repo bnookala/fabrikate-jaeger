@@ -1,15 +1,10 @@
-name: "elasticsearch-fluentd-kibana"
+name: "fabrikate-jaeger"
 generator: "static"
 path: "./manifests"
 subcomponents:
-  - name: "grafana"
+  - name: "jaeger"
     generator: "helm"
     repo: "https://github.com/helm/charts"
-    path: "stable/grafana"
+    path: "incubator/jaeger"
     repositories:
       incubator: "https://kubernetes-charts-incubator.storage.googleapis.com/"
-  - name: "prometheus"
-    generator: "helm"
-    source: "https://github.com/helm/charts"
-    method: "git"
-    path: "stable/prometheus"
