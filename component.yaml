@@ -1,9 +1,10 @@
-name: fabrikate-jaeger
-generator: static
+name: "fabrikate-jaeger"
+generator: "static"
 path: "./manifests"
 subcomponents:
-- name: jaeger
-  generator: helm
+- name: "istio"
+  generator: "helm"
+  repo: "https://github.com/helm/charts"
   repositories:
-  - incubator: https://kubernetes-charts-incubator.storage.googleapis.com/
-  path: incubator/jaeger
+  - incubator: "https://kubernetes-charts-incubator.storage.googleapis.com/"
+  path: "incubator/jaeger"
