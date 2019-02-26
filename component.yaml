@@ -2,7 +2,7 @@ name: "fabrikate-jaeger"
 generator: "static"
 path: "./manifests"
 subcomponents:
-- name: "istio"
+- name: "jaeger"
   generator: "helm"
   repo: "https://github.com/helm/charts"
   repositories:
