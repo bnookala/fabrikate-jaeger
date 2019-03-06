@@ -6,7 +6,11 @@
         {
             "name": "jaeger",
             "generator": "helm",
-            "repo": "https://github.com/helm/charts",
+            "repositories": {
+                "incubator": "https://kubernetes-charts-incubator.storage.googleapis.com/"
+            },
+            "source": "https://github.com/helm/charts",
+            "method": "git",
             "path": "incubator/jaeger"
         }
     ]

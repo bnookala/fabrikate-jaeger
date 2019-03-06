@@ -1,0 +1,8 @@
+config:
+subcomponents:
+    jaeger:
+        config:
+            namespace: "jaeger"
+            collector:
+                annotations:
+                    sidecar.istio.io/inject: "false"
