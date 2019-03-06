@@ -4,7 +4,7 @@ This [fabrikate](http://github.com/microsoft/fabrikate) stack installs Jaeger on
 
 ### Requirements
 
-- The [fabrikate](http://github.com/microsoft/fabrikate/releases) cli tool installed locally
+- The [fabrikate 0.2.3](http://github.com/microsoft/fabrikate/releases) cli tool installed locally
 - The [helm](https://github.com/helm/helm/releases) cli tool installed locally
 - The kubectl cli tool installed locally
 
